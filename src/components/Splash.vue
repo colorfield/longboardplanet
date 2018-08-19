@@ -5,7 +5,7 @@
       <div class="tile is-vertical is-8">
         <div class="tile">
           <div class="tile is-parent is-vertical">
-            <article class="tile is-child notification is-primary">
+            <article class="tile is-child notification has-background-success">
               <h3 class="title">Best spots in Brussels</h3>
               <div class="content">
                 <ul>
@@ -38,14 +38,15 @@
                 <!-- @todo component -->
                 <li><strong>Brussels</strong> <a href="https://fr-fr.facebook.com/RADskateshop/">Ride All Day</a> skateboards</li>
                 <li><strong>Ghent</strong> <a href="https://www.facebook.com/longboardcave/">The Cave</a> longboards</li>
-                <li><strong>Webshop</strong> <a href="https://www.skatetilldeath.com/en/">Skate Till Death</a> old school skateboards</li>
+                <li><strong>Cologne</strong> <a href="http://www.concretewave.de/">Concrete Wave</a> old style skateshop, longboards</li>
+                <li><strong>Webshop</strong> <a href="https://www.skatetilldeath.com/en/">Skate Till Death</a> old style skateboards</li>
               </ul>
             </div>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child notification is-success">
+        <article class="tile is-child notification has-background-warning">
           <div class="content">
             <p class="title">Next events</p>
             <div class="content">
