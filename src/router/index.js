@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import NotFound from '@/components/NotFound'
 import Preview from '@/components/Preview'
 import Spot from '@/components/Spot'
+import Page from '@/components/Page'
 import Splash from '@/components/Splash'
 
 Vue.use(Router)
@@ -33,6 +34,11 @@ const router = new Router({
       path: '/spot/:uid',
       name: 'spot',
       component: Spot
+    },
+    {
+      path: '/page/:uid',
+      name: 'page',
+      component: Page
     },
     {
       path: '*',

@@ -12,6 +12,10 @@ yarn install
 ```
 yarn run dev
 ```
+or 
+```
+yarn start
+```
 
 ### Compiles and minifies for production
 ```

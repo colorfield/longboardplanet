@@ -1,12 +1,14 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper content">
         <prismic-edit-button :documentId="documentId"/>
-        <h1 class="title">
+        <h1 class="title is-1">
             {{ $prismic.richTextAsPlain(fields.title) }}
         </h1>
         <prismic-rich-text :field="fields.description" class="description"/>
         <div class="image-wrapper">
-            <prismic-image :field="fields.icon" class="image"/>
+          <figure class="image is-16by9">
+            <prismic-image :field="fields.image" class="image"/>
+          </figure>
         </div>
     </div>
 </template>
@@ -32,7 +34,7 @@
               this.documentId = document.id
               this.fields.title = document.data.title
               this.fields.description = document.data.description
-              this.fields.icon = document.data.image
+              this.fields.image = document.data.image
             } else {
               this.$router.push({ name: 'not-found' })
             }
