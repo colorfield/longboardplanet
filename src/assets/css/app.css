@@ -4,7 +4,16 @@ html,body {
 }
 
 .hero.is-info.is-bold {
-  background: url('//c1.staticflickr.com/1/826/42132264271_6bd7de4f83_k.jpg')center center; background-size:cover;
+  background: #ebe8e6;
+}
+@media screen and (min-width: 769px) {
+  .hero.is-info.is-bold {
+    background: url('//c1.staticflickr.com/1/826/42132264271_6bd7de4f83_k.jpg')center center; background-size:cover;
+  }
+  .hero.is-medium .hero-body {
+    padding-bottom: 16rem;
+    padding-top: 9rem;
+  }
 }
 .navbar-item img {
   max-height: 4rem;
@@ -15,13 +24,11 @@ html,body {
 }
 .hero-body .title {
   color: #2f2b27 !important;
-  text-shadow: 1px 1px white;
-  /*color: hsl(192,17%,99%) !important;*/
+  text-shadow: 1px 1px #ebe8e6;
 }
 .hero-body .subtitle {
   color: #453e38 !important;
-  text-shadow: 1px 1px white;
-  /*color: hsl(192,17%,99%) !important;*/
+  text-shadow: 1px 1px #ebe8e6;
   padding-top: 0.5rem;
   padding-bottom: 1.5rem;
   line-height: 1.5;

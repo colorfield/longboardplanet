@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <app-header/>
-    <!-- @todo call to action -->
     <router-view/>
     <app-footer/>
   </div>
